@@ -1,0 +1,22 @@
+#style{
+    animation-name: color ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes color{
+    0% {color: #63E6BE;}
+    25% {color: rgb(235, 135, 135);}
+    50% {color: rgb(102, 12, 102);}
+    75% {color: tomato;}
+    100% {color: chartreuse;}
+}
+.lead{
+    animation: word 7s linear 5s infinite forwards ;
+    position: relative;
+}
+
+@keyframes word{
+  from {left:-30%;}
+  to {left: 100%;}
+
+}
